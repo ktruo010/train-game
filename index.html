@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Train</title>
+    <link href="./assets/css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">Anytime is Train Time
+        <div id="subTitle">Choo Choo. Chee Chee.</div>
+    </div>
+    <div class="spacing"></div>
+    <div id="section">
+        <table id="table">
+            <div id="tblHeader">Train Schedule</div>
+            <thead>
+                <td>Train Name</td>
+                <td>Destination</td>
+                <td>Frequency</td>
+                <td>Next Arrival</td>
+                <td>Minutes Away</td>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <div class="spacing"></div>
+    <div id="section">
+        <div id="tblHeader">Add Train</div>
+        <form>
+            Train Name:<input id="trainName" type="text"><br>
+            Destination<input id="destination" type="text"><br>
+            First Train Time (HH:MM)<input id="firstTrain" type="time"><br>
+            Frequency (min)<input id="frequency" type="text"><br>
+            <br>
+            <button id="submit">Submit</button>
+        </form>
+
+    </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+    <script type="text/javascript" src="./assets/js/app.js"></script>
+</body>
+
+</html>

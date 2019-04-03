@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height: 150px;
+    width: 80%;
+    background-color: brown;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    font-size: 40px;
+    margin-left: 100px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+#subTitle {
+    font-size: 25px;
+}
+
+.spacing {
+    height: 20px;
+}
+
+#section {
+    margin-left: 100px;
+    border: 1px solid black;
+    width: 80%;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+}
+
+#tblHeader {
+    margin: 10px;
+    font-size: 20px;
+}
+tr td {
+    border: 1px solid black;
+    text-align: center;
+    width: 300px;
+    font-size: 15px;
+}
+form {
+    margin-left: 10px;
+    text-align: left;
+}
+input {
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+#submit {
+    height: 40px;
+    width: 80px;
+    margin: 10px;
+}
+thead {
+    font-weight: bold;
+    height: 25px;
+}
